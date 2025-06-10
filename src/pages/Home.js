@@ -35,7 +35,7 @@ const Home = () => {
 
   return (
     <div className="container mx-auto p-4">
-      {/* Category Quick Links */}
+      
       <div className="mb-12">
         <h2 className="text-2xl font-semibold mb-4 text-center">Browse Categories</h2>
         <div className="flex flex-wrap justify-center gap-4 md:gap-8">
@@ -48,7 +48,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Featured Ads */}
+     
       <div className='mb-12'>
         <h2 className="text-2xl font-semibold mb-4">Featured Ads</h2>
         {loading ? (<p>Loading ads...</p>) : error ? (<p className="text-red-500">{error}</p>) : 
